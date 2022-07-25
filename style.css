@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+button{
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+  border: 2px solid darkblue;
+  border-radius: 5px;
+  cursor: pointer;
+  background: transparent;
+}
+
+button, p{
+  font-family: 'Courgette', cursive;
+}
+
+/*div containing start button*/
+#startDiv {
+  width: 100%;
+  position: absolute;
+  bottom: 70px;
+  text-align: center;
+}
+
+/*start button*/
+#startB {
+  color: #fff;
+}
+
+/*div containing audio element*/
+#audioDiv{
+  position: absolute;
+  bottom: 0px;
+  visibility: hidden;
+  width:100%;
+  text-align: center;
+}
+
+/*controller restart, free roam buttons*/
+#restartB, #freeRoamB {
+  margin: 0px;
+}
+
+/*score and high score paragraphs*/
+#scoreP, #maxScoreP{
+  font-size: 17px;
+  margin: 5px;
+  text-align: center;
+}
+
+/*controller div*/
+#controllerDiv {
+  width: 100%;
+  position: absolute;
+  bottom: 70px;
+  visibility: hidden;
+}
+
+/*media query for screen size less than 700px and greater than 701px*/
+@media (max-width: 700px) {
+  .res-but-p, .score-p, .free-but-p{
+    float: left;
+  }
+  .res-but-p{
+    width: 25%;
+  }
+  .score-p{
+    width: 50%;
+  }
+  .free-but-p{
+    width: 25%;
+  }
+}
+@media (min-width: 701px) {
+  .res-but-d, .score-d, .free-but-d{
+    float: left;
+  }
+  .res-but-d{
+    width: 16.66%;
+  }
+  .score-d{
+    width: 66.66%;
+  }
+  .free-but-d{
+    width: 16.66%;
+  }
+}
