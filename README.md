@@ -13,9 +13,8 @@ Game is Live😃:
 https://snehil002.github.io/Horse-Tree/
 
 ### Bibliography:
-Learned from **The Coding Train** youtube channel:  
+Learned from **The Coding Train** youtube channel:
 >https://www.youtube.com/user/shiffman
 
-To play Chrome-Dino, type:  
+To play Chrome-Dino game, type this in the address bar of Google Chrome browser:
 >chrome://dino
-in the address bar of Google Chrome browser.
