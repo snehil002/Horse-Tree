@@ -1,6 +1,19 @@
+* {
+  font-family: 'Courgette', cursive;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.center-x {
+  display: flex;
+  justify-content: center;
 }
 
 canvas {
@@ -17,8 +30,9 @@ button{
   background: transparent;
 }
 
-button, p{
-  font-family: 'Courgette', cursive;
+button:active, button:hover {
+  background: darkcyan;
+  color: white;
 }
 
 /*div containing start button*/
@@ -63,32 +77,15 @@ button, p{
   visibility: hidden;
 }
 
-/*media query for screen size less than 700px and greater than 701px*/
-@media (max-width: 700px) {
-  .res-but-p, .score-p, .free-but-p{
-    float: left;
-  }
-  .res-but-p{
-    width: 25%;
-  }
-  .score-p{
-    width: 50%;
-  }
-  .free-but-p{
-    width: 25%;
-  }
+.res-but-p, .score-p, .free-but-p{
+  float: left;
 }
-@media (min-width: 701px) {
-  .res-but-d, .score-d, .free-but-d{
-    float: left;
-  }
-  .res-but-d{
-    width: 16.66%;
-  }
-  .score-d{
-    width: 66.66%;
-  }
-  .free-but-d{
-    width: 16.66%;
-  }
+.res-but-p{
+  width: 25%;
+}
+.score-p{
+  width: 50%;
+}
+.free-but-p{
+  width: 25%;
 }

@@ -12,13 +12,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
   </head>
   <body>
+    <div id="cnv-div" class="center-x">
+
+    </div>
+
     <div id="controllerDiv">
-      <div class="res-but-p res-but-d">
+      <div class="res-but-p">
         <button id="restartB" onclick="restart()">
           🔁
         </button>
       </div>
-      <div class="score-p score-d">
+      
+      <div class="score-p">
         <div>
           <p id="scoreP">
             
@@ -30,7 +35,8 @@
           </p>
         </div>
       </div>
-      <div class="free-but-p free-but-d">
+
+      <div class="free-but-p" style="text-align: end;">
         <button id="freeRoamB" onclick="freelyRoam()">
           Free Roam
         </button>

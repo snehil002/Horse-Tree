@@ -3,12 +3,12 @@ class AnimatedHorse {
     this.x = 15;
     this.y = ground - r;
     this.vel = 0;
-   
+
     this.animation = animation;
     this.len = this.animation.length;
-    this.animSpeed=animationSpeed;
+    this.animSpeed = animationSpeed;
     this.index = 0;
-    
+
     this.w = r;
     this.h = r;
   }
@@ -33,7 +33,7 @@ class AnimatedHorse {
   
   jump(){
     if(this.y == ground - this.h){
-      this.vel = -15;
+      this.vel = -horseYSpeed;
     }
   }
   

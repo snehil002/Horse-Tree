@@ -1,10 +1,10 @@
 class Tree {
   constructor(x) {
-    this.h = 60;
+    this.h = random(treeHeight, treeHeight+10);
     this.x = x;
     this.y = ground - this.h;
-    this.w = random(40,50);
-    this.animSpeed = animationSpeed*17;
+    this.w = random(treeWidth, treeWidth+10);
+    this.animSpeed = animationSpeed * 18;
   }
 
   update() {
