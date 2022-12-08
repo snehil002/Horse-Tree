@@ -1,7 +1,7 @@
 # The Horse-Tree Game
 ~ By Snehil Kumar
 
-<img src="ss/horse-tree.jpg" alt="Horse-Tree Game Screenshot" width="433" height="400" />
+>See ss/ folder for a screenshot.
 
 An Online Game, that is a clone of the Chrome-Dino game (the game that we play when internet gets disconnected).
 
