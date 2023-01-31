@@ -13,10 +13,13 @@ the 'Trees'.
 
 If the Horse is hit by the Trees, the game ends.  
 If the Horse stays unhit, the user gets points.  
-This score increases with time. 
+This score increases with time.
 
 There is an end to this game and there is a prize  
 for the winner.
+
+This is not a Course or a Team project. This is  
+an Individual Project.  
 
 ## Pre-requisite Knowledge
 Every animation or video is a series of images.  
